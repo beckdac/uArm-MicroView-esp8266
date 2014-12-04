@@ -1,0 +1,108 @@
+Cmp-Mod V01 Created by Cvpcb 0.201411211846+5297~19~ubuntu14.04.1-product   date = Wed 03 Dec 2014 11:20:42 PM PST
+
+BeginCmp
+TimeStamp = /547F94BE;
+Reference = C1;
+ValeurCmp = 100nF;
+IdModule  = Discret:C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /547F9631;
+Reference = CONN1;
+ValeurCmp = FTDI_Cable;
+IdModule  = Pin_Headers:Pin_Header_Angled_1x06;
+EndCmp
+
+BeginCmp
+TimeStamp = /547F960C;
+Reference = CONN2;
+ValeurCmp = FTDI_Cable;
+IdModule  = Pin_Headers:Pin_Header_Angled_1x06;
+EndCmp
+
+BeginCmp
+TimeStamp = /547F96BD;
+Reference = CONN3;
+ValeurCmp = SERVO;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
+EndCmp
+
+BeginCmp
+TimeStamp = /547F96E2;
+Reference = CONN4;
+ValeurCmp = SERVO;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
+EndCmp
+
+BeginCmp
+TimeStamp = /547F972D;
+Reference = CONN5;
+ValeurCmp = SERVO;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
+EndCmp
+
+BeginCmp
+TimeStamp = /547F9757;
+Reference = CONN6;
+ValeurCmp = SERVO;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
+EndCmp
+
+BeginCmp
+TimeStamp = /547F9662;
+Reference = CONN7;
+ValeurCmp = SERVO;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
+EndCmp
+
+BeginCmp
+TimeStamp = /548004E5;
+Reference = P1;
+ValeurCmp = CONN_01X02;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = /547F945C;
+Reference = R1;
+ValeurCmp = 10k;
+IdModule  = Discret:R1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54800AFD;
+Reference = R2;
+ValeurCmp = 10K;
+IdModule  = Discret:R1;
+EndCmp
+
+BeginCmp
+TimeStamp = /547F93F4;
+Reference = U1;
+ValeurCmp = LM2596_Buck_Board;
+IdModule  = uArm:LM2596_BUCK_BOARD;
+EndCmp
+
+BeginCmp
+TimeStamp = /547F9319;
+Reference = U2;
+ValeurCmp = MicroView;
+IdModule  = uArm:MICROVIEW;
+EndCmp
+
+BeginCmp
+TimeStamp = /547F909B;
+Reference = U3;
+ValeurCmp = esp-01;
+IdModule  = uArm:ESP_01;
+EndCmp
+
+BeginCmp
+TimeStamp = /547F941D;
+Reference = U4;
+ValeurCmp = LM2596_Buck_Board;
+IdModule  = uArm:LM2596_BUCK_BOARD;
+EndCmp
+
+EndListe
