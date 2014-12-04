@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/kicad/uarm/uarm.sch)
-    (date "Wed 03 Dec 2014 11:20:31 PM PST")
+    (date "Thu 04 Dec 2014 12:47:46 AM PST")
     (tool "Eeschema 0.201411211846+5297~19~ubuntu14.04.1-product"))
   (components
     (comp (ref U3)
