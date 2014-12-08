@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 137)
+    (start_pass_no 448)
     (layer_rule F.Cu
       (active on)
       (preferred_direction horizontal)
@@ -26,49 +26,49 @@
     )
   )
   (rule
-    (width 800.0)
-    (clear 254.2)
-    (clear 400.0 (type smd_to_turn_gap))
-    (clear 63.6 (type smd_smd))
+    (width 750.0)
+    (clear 300.2)
+    (clear 375.0 (type smd_to_turn_gap))
+    (clear 75.0 (type smd_smd))
   )
-  (padstack "Via[0-1]_950:700_um"
+  (padstack "Via[0-1]_1000:700_um"
     (shape
-      (circle F.Cu 950.0 0.0 0.0)
+      (circle F.Cu 1000.0 0.0 0.0)
     )
     (shape
-      (circle In1.Cu 950.0 0.0 0.0)
+      (circle In1.Cu 1000.0 0.0 0.0)
     )
     (attach off)
   )
   (via 
-    "Via[0-1]_950:700_um" "Via[0-1]_950:700_um" default
+    "Via[0-1]_1000:700_um" "Via[0-1]_1000:700_um" default
   )
   (via 
-    "Via[0-1]_950:700_um-kicad_default" "Via[0-1]_950:700_um" "kicad_default"
+    "Via[0-1]_1000:700_um-kicad_default" "Via[0-1]_1000:700_um" "kicad_default"
   )
   (via 
-    "Via[0-1]_950:700_um-+V" "Via[0-1]_950:700_um" +V
+    "Via[0-1]_1000:700_um-+V" "Via[0-1]_1000:700_um" +V
   )
   (via 
-    "Via[0-1]_950:700_um-GND" "Via[0-1]_950:700_um" GND
+    "Via[0-1]_1000:700_um-GND" "Via[0-1]_1000:700_um" GND
   )
   (via_rule
-    default "Via[0-1]_950:700_um"
+    default "Via[0-1]_1000:700_um"
   )
   (via_rule
-    "kicad_default" "Via[0-1]_950:700_um-kicad_default"
+    "kicad_default" "Via[0-1]_1000:700_um-kicad_default"
   )
   (via_rule
-    +V "Via[0-1]_950:700_um-+V"
+    +V "Via[0-1]_1000:700_um-+V"
   )
   (via_rule
-    GND "Via[0-1]_950:700_um-GND"
+    GND "Via[0-1]_1000:700_um-GND"
   )
   (class default
     (clearance_class default)
     (via_rule default)
     (rule
-      (width 800.0)
+      (width 750.0)
     )
     (circuit 
       (use_layer F.Cu In1.Cu)
@@ -77,11 +77,12 @@
   (class "kicad_default"
     "Net-(C1-Pad1)" "MV_RESET" "Net-(CONN1-Pad2)" "Net-(CONN1-Pad3)" "MV_RXD" "MV_TXD" "Net-(CONN2-Pad2)" "Net-(CONN2-Pad3)"
     "ESP_RX" "ESP_TX" "Net-(CONN2-Pad6)" "SERVO_H" "SERVO_HROT" "SERVO_ROT" "SERVO_R" "SERVO_L"
-    "Net-(P1-Pad2)" "ESP_RST" "Net-(U2-Pad2)" "Net-(U2-Pad3)" "Net-(U2-Pad4)" "Net-(U2-Pad5)" "Net-(U2-Pad15)"
+    "Net-(P1-Pad2)" "Net-(U2-Pad2)" "Net-(U2-Pad3)" "Net-(U2-Pad4)" "Net-(U2-Pad5)" "Net-(U2-Pad15)" "Net-(U2-Pad6)" "Net-(U3-Pad3)"
+    "Net-(U3-Pad6)"
     (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule
-      (width 800.0)
+      (width 750.0)
     )
     (circuit 
       (use_layer F.Cu In1.Cu)
@@ -92,7 +93,7 @@
     (clearance_class +V)
     (via_rule +V)
     (rule
-      (width 1200.0)
+      (width 1000.0)
     )
     (circuit 
       (use_layer F.Cu In1.Cu)
@@ -103,7 +104,7 @@
     (clearance_class GND)
     (via_rule GND)
     (rule
-      (width 1200.0)
+      (width 1000.0)
     )
     (circuit 
       (use_layer F.Cu In1.Cu)

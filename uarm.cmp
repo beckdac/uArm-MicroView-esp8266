@@ -1,105 +1,112 @@
-Cmp-Mod V01 Created by Cvpcb 0.201411211846+5297~19~ubuntu14.04.1-product   date = Thu 04 Dec 2014 12:48:11 AM PST
+Cmp-Mod V01 Genere par PcbNew le Sat 06 Dec 2014 10:02:08 AM PST
 
 BeginCmp
-TimeStamp = /547F94BE;
+TimeStamp = 54827659
+Path = /547F94BE
 Reference = C1;
 ValeurCmp = 100nF;
 IdModule  = Discret:C1;
 EndCmp
 
 BeginCmp
-TimeStamp = /547F9631;
+TimeStamp = 54827663
+Path = /547F9631
 Reference = CONN1;
 ValeurCmp = FTDI_Cable;
 IdModule  = Pin_Headers:Pin_Header_Angled_1x06;
 EndCmp
 
 BeginCmp
-TimeStamp = /547F960C;
+TimeStamp = 5482766D
+Path = /547F960C
 Reference = CONN2;
 ValeurCmp = FTDI_Cable;
 IdModule  = Pin_Headers:Pin_Header_Angled_1x06;
 EndCmp
 
 BeginCmp
-TimeStamp = /547F96BD;
+TimeStamp = 54827674
+Path = /547F96BD
 Reference = CONN3;
 ValeurCmp = SERVO;
 IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
 EndCmp
 
 BeginCmp
-TimeStamp = /547F96E2;
+TimeStamp = 5482767B
+Path = /547F96E2
 Reference = CONN4;
 ValeurCmp = SERVO;
 IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
 EndCmp
 
 BeginCmp
-TimeStamp = /547F972D;
+TimeStamp = 54827682
+Path = /547F972D
 Reference = CONN5;
 ValeurCmp = SERVO;
 IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
 EndCmp
 
 BeginCmp
-TimeStamp = /547F9757;
+TimeStamp = 54827689
+Path = /547F9757
 Reference = CONN6;
 ValeurCmp = SERVO;
 IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
 EndCmp
 
 BeginCmp
-TimeStamp = /547F9662;
+TimeStamp = 54827690
+Path = /547F9662
 Reference = CONN7;
 ValeurCmp = SERVO;
 IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
 EndCmp
 
 BeginCmp
-TimeStamp = /548004E5;
+TimeStamp = 54827696
+Path = /548004E5
 Reference = P1;
 ValeurCmp = CONN_01X02;
 IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
 EndCmp
 
 BeginCmp
-TimeStamp = /547F945C;
+TimeStamp = 5482769C
+Path = /547F945C
 Reference = R1;
 ValeurCmp = 10k;
 IdModule  = Discret:R1;
 EndCmp
 
 BeginCmp
-TimeStamp = /54800AFD;
-Reference = R2;
-ValeurCmp = 10K;
-IdModule  = Discret:R1;
-EndCmp
-
-BeginCmp
-TimeStamp = /547F93F4;
+TimeStamp = 548276A4
+Path = /547F93F4
 Reference = U1;
 ValeurCmp = LM2596_Buck_Board;
 IdModule  = uArm:LM2596_BUCK_BOARD;
 EndCmp
 
 BeginCmp
-TimeStamp = /547F9319;
+TimeStamp = 548276B8
+Path = /547F9319
 Reference = U2;
 ValeurCmp = MicroView;
 IdModule  = uArm:MICROVIEW;
 EndCmp
 
 BeginCmp
-TimeStamp = /547F909B;
+TimeStamp = 548276C4
+Path = /547F909B
 Reference = U3;
 ValeurCmp = esp-01;
 IdModule  = uArm:ESP_01;
 EndCmp
 
 BeginCmp
-TimeStamp = /547F941D;
+TimeStamp = 548276CC
+Path = /547F941D
 Reference = U4;
 ValeurCmp = LM2596_Buck_Board;
 IdModule  = uArm:LM2596_BUCK_BOARD;
