@@ -1,6 +1,6 @@
 function getParameterDefinitions() {
 	return [
-		{ name: 'board_width', caption: 'PCB board width:', type: 'float', default: 53.0 },
+		{ name: 'board_width', caption: 'PCB board width:', type: 'float', default: 56.0 },
 		{ name: 'board_length', caption: 'PCB board length:', type: 'float', default: 102. },
 		{ name: 'thickness', caption: 'Box wall thickness:', type: 'float', default: 1.5 },
 		{ name: 'inset', caption: 'Slot inset:', type: 'float', default : 1 },
